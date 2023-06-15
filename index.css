@@ -1,0 +1,13 @@
+.fixed1 {
+    pointer-events: none;
+    position: fixed;
+    left: 10px;
+    bottom: 5px;
+}
+
+.fixed2 {
+    pointer-events: none;
+    position: fixed;
+    right: 10px;
+    bottom: 15px;
+}

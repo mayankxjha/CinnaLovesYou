@@ -1,0 +1,45 @@
+{
+  "name": "CinnaLovesYou",
+  "version": "0.1.0",
+  "description": "Cinna dances for you.",
+  "permissions": [
+    "storage",
+    "tabs",
+    "contextMenus"
+  ],
+  "author": "nyano",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "contentScript.js"
+      ],
+      "css": [
+        "index.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "24": "assets/hiclipart.com.png",
+      "16": "assets/hiclipart.com.png",
+      "32": "assets/hiclipart.com.png"
+    },
+    "default_title": "CinnaLovesYou",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
