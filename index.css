@@ -6,8 +6,17 @@
 }
 
 .fixed2 {
-    pointer-events: none;
+    transform: translateX(90vw);
+    pointer-events: all;
+    /*z-index: 1000;*/
+    z-index: -8999;
     position: fixed;
-    right: 10px;
-    bottom: 15px;
+    cursor: move;
+}
+.fullScr{
+    z-index: 10;
+    pointer-events: all;
+    width: 150px;
+    height: 150px;
+    position: absolute;
 }
