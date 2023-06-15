@@ -41,7 +41,6 @@
     div1.append(img1)
     document.body.prepend(div2)
     dragElement(document.getElementById("mydiv"));
-
     function dragElement(elmnt) {
         let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
         if (document.getElementById(elmnt.id + "header")) {

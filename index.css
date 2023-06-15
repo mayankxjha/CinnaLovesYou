@@ -6,7 +6,7 @@
 }
 
 .fixed2 {
-    transform: translateX(90vw);
+    transform: translateY(80vh);
     pointer-events: all;
     /*z-index: 1000;*/
     z-index: -8999;
