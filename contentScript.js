@@ -27,7 +27,7 @@
     }
     img1.src = source
     img1.alt = "tf"
-    img1.width = 150
+    img1.width = 100
     // img1.draggable = true
     img1.addEventListener("ended", () => {
         img1.src = source
