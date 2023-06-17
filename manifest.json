@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Cinna dances for you.",
   "permissions": [
+    "activeTab",
     "storage",
     "tabs",
     "contextMenus"

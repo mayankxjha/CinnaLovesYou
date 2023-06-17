@@ -6,17 +6,30 @@
 }
 
 .fixed2 {
-    transform: translateY(80vh);
-    pointer-events: all;
-    /*z-index: 1000;*/
-    z-index: -8999;
-    position: fixed;
-    cursor: move;
-}
-.fullScr{
-    z-index: 10;
-    pointer-events: all;
+    position: absolute;
     width: 100px;
     height: 100px;
-    position: absolute;
+    z-index: 9;
+}
+.fixed2 img{
+    cursor: move;
+    pointer-events: all;
+    position: fixed;
+    z-index: 10;
+}
+.fullScr{
+    z-index: 9;
+    pointer-events: all;
+
+}
+.pos0{
+    transform: translateY(80vh);
+}.pos1{
+    transform: translateY(70vh);
+}.pos2{
+    transform: translateY(60vh);
+}.pos3{
+    transform: translateY(50vh);
+}.pos4{
+    transform: translateY(40vh);
 }
