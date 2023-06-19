@@ -16,3 +16,16 @@ html. body{
 .containerPopup h3{
     text-align: center;
 }
+.slidecontainer {
+    text-align: center;
+    width: 100%;
+}
+.slider {
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}

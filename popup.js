@@ -1,5 +1,14 @@
 const form = document.querySelector('#Form')
 const radioButtons = document.querySelectorAll('input[name="CinnaCount"]');
+chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
+    chrome.tabs.sendMessage(tabs[0].id, {message: 1})
+        .then(data => {
+            // console.log(data)
+        })
+        .catch(err => {
+            console.log(err)
+        })
+});
 
 function saveSelectedValue() {
     radioButtons.forEach(btn => {
